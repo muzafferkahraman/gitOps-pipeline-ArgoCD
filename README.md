@@ -3,7 +3,7 @@
 This is the Gitops Gitlab-ArgoCD pipeline demo.\
 It demonstrates the automatic deployment of K8S manifest commits.
 
-![alt text](figure-0.png)
+![alt text](figure-main.png)
 
 The Demo is composed of 2 sections
 
