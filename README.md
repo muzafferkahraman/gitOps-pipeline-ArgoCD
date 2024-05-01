@@ -45,7 +45,7 @@ Clone the repo to your master node \
 
 
 # PS
-Docker images are stored in Harbour in my home lab env\
+Docker images are stored in my private Harbour registry, in my home lab env\
 I'm going to push them to a public registry (Docker Hub) and tweak the manifest accordingly, soon \
 For now you can use your images 
 
