@@ -3,7 +3,7 @@
 This is the Gitops Gitlab-ArgoCD pipeline demo.\
 It demonstrates the automatic deployment of K8S manifest commits.
 
-![alt text](figure-main.png)
+![alt text](pics/figure-main.png)
 
 The Demo is composed of 2 sections
 
@@ -14,7 +14,7 @@ The Demo is composed of 2 sections
   You can initiate the manual process as below:
   
 
-  ![alt text](figure-1.png)
+  ![alt text](pics/figure-1.png)
 
 
 - Instant Deployment via Webhooks \
@@ -22,7 +22,7 @@ The Demo is composed of 2 sections
   Setup the webhook at the gitlab, as below \
 
 
-![alt text](figure-2.png)
+![alt text](pics/figure-2.png)
 
 
 ### ArgoCD Deployment Procedure
@@ -34,14 +34,14 @@ Check with
 > kubectl get pods -n argocd
 
 
-![alt text](figure-3.png)
+![alt text](pics/figure-3.png)
 
 
 ### Demo
 
 Clone the repo to your master node \
 > kubectl apply -f dev/muzo.yaml \
-> kubectl apply -f applications.yaml
+> kubectl apply -f dev/applications.yaml
 
 
 # PS
